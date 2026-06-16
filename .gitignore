@@ -6,7 +6,15 @@ __pycache__/
 
 .ipynb_checkpoints/
 
-data/
+# Ignore data files
+data/**
+
+# Allow DVC files
+!data/
+!data/raw/
+!data/processed/
+!data/**/*.dvc
+!data/**/.gitignore
 
 .dvc/cache/
 
